@@ -1,0 +1,27 @@
+.nav_links{
+    gap:40px;
+}
+.nav_links a{
+    font-size: 18px;
+    font-weight: 600;
+}
+.search_icon_mobile{
+    display: none;
+}
+@media only screen and (max-width:991px) {
+    .nav_links{
+        gap: 10px;
+        margin: auto;
+        width: max-content;
+    }
+    .search_icon_desktop{
+        display: none;
+    }
+    .search_icon_mobile{
+        display: inline;
+    }
+    .navbar-collapse{
+        overflow: hidden;
+    }
+}
+

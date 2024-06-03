@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "available_locations",
+  "info": {
+    "singularName": "available-location",
+    "pluralName": "available-locations",
+    "displayName": "Available Location",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "CoverImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "LocationName": {
+      "type": "string"
+    }
+  }
+}

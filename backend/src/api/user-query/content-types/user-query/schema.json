@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_queries",
+  "info": {
+    "singularName": "user-query",
+    "pluralName": "user-queries",
+    "displayName": "UserQuery"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "integer"
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}
