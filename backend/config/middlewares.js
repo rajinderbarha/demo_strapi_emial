@@ -10,3 +10,11 @@ module.exports = [
   'strapi::favicon',
   'strapi::public',
 ];
+// Example configuration in middlewares.js
+module.exports = {
+  settings: {
+    public: {
+      path: './public', // Adjust the path if necessary
+    },
+  },
+};
